@@ -33,3 +33,14 @@ cmake_install.cmake
 
 # System
 .DS_Store
+
+# Libtool build artifacts
+.libs/
+*.o
+*.lo
+*.la
+
+# Shared and static libraries
+*.so
+*.so.*
+*.a
